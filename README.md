@@ -44,7 +44,7 @@ You should be in the same folder of the pom.file
 mvn package
 ```
 
-#Running Maven Tools
+# Running Maven Tools
 
 ### Maven Phases
 
