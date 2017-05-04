@@ -62,4 +62,14 @@ There are two others Maven lifecycles of note beyond the default list above
 - **Clean:** cleans up artifacts created by prior builds.
 - **Site:** generates site documentation for this project-
 
+# What is Archetype ?
 
+Is a Maven project templating toolkit. Archetypes will help authors create Maven project templates for users, and provides users with the means to generate parametrized versions of those project templates.
+
+## Using an Archetype
+
+To create a new project based on an Archetype, you need to call **mvn archetype:generate** goal, like the following :
+
+```
+1. mvn archetype:generate
+```
